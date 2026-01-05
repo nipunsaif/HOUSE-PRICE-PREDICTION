@@ -28,7 +28,7 @@
   * All models improved.
   * Decision Tree (R²: 0.86), Random Forest (R²: 0.86), SVM (R²: 0.83)
 
-**Importance:** Random Forest is the most consistent. Hyperparameter tuning boosts performance.
+**Importance:** Random Forest is the most consistent. Hyperparameter tuning boosts performance. </br>
 **Limitation:** Small dataset, risk of overfitting, no CV tuning for Linear Regression.
 
 ## Task-3: Convert Regression to Classification
@@ -43,8 +43,7 @@
 
   * Trained **4 classifiers**: Logistic Regression, Decision Tree, Random Forest, and SVM.
 
-**Importance:** Regression labels successfully transformed into classes for classification tasks.
-
+**Importance:** Regression labels successfully transformed into classes for classification tasks. </br>
 **Limitation:** Quantile-based binning may cause class imbalance; label boundaries are arbitrary.
 
  ## Task-4: Classification Metrics
@@ -63,7 +62,7 @@
   * **SVM:** 0.92, 0.97, 0.87 (very close to Logistic)
   * Others showed lower scores, especially in class 2
 
-**Importance:** Logistic Regression performed best in classification accuracy and ROC-AUC. SVM was a close second.
+**Importance:** Logistic Regression performed best in classification accuracy and ROC-AUC. SVM was a close second.</br>
 **Limitation:** Class 2 ("High") consistently had lower precision and recall across models.
 
 ## Task-5: Ensemble Learning & Feature Importance
