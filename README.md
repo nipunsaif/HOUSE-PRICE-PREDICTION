@@ -1,7 +1,7 @@
 # Predictive Modeling of Housing Prices in Boston Using Machine Learning Techniques
 
 ## Key Takeaways
-### Task-1: Data Preprocessing & EDA 
+## Task-1: Data Preprocessing & EDA 
 
 * Dataset loaded from an external source due to ethical concerns (racially sensitive feature).
 * No missing values; already mostly preprocessed.
@@ -13,7 +13,7 @@
 **Limitations:** Small size, ethical concerns, and presence of outliers.</br>
 **Importance:** Clean and simple dataset for learning regression basics.
 
-### Task-2: Train & Evaluate Regression Models
+## Task-2: Train & Evaluate Regression Models
 
 * **Without CV:**
   * **Best:** Random Forest (R²: 0.89)
@@ -31,7 +31,7 @@
 **Importance:** Random Forest is the most consistent. Hyperparameter tuning boosts performance.
 **Limitation:** Small dataset, risk of overfitting, no CV tuning for Linear Regression.
 
-### Task-3: Convert Regression to Classification
+## Task-3: Convert Regression to Classification
 
 * **Target Conversion:**
   * Used **quantiles** to categorize prices into **Low**, **Medium**, and **High**.
@@ -47,7 +47,7 @@
 
 **Limitation:** Quantile-based binning may cause class imbalance; label boundaries are arbitrary.
 
- ### Task-4: Classification Metrics
+ ## Task-4: Classification Metrics
 
 * **Best Overall Performance:**
   * **Logistic Regression** achieved highest accuracy (**80.4%**) and strong precision/recall across all classes.
@@ -66,7 +66,7 @@
 **Importance:** Logistic Regression performed best in classification accuracy and ROC-AUC. SVM was a close second.
 **Limitation:** Class 2 ("High") consistently had lower precision and recall across models.
 
-### Task-5: Ensemble Learning & Feature Importance
+## Task-5: Ensemble Learning & Feature Importance
 
 * **Ensemble Model Performance (Accuracy):** Bagging has the Highest accuracy, Strong f1-scores for High and Low, Performs most consistently across all classes.
 * **Decision Tree:**
